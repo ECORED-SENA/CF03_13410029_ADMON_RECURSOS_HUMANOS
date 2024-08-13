@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF03_13410029_ADMON_RECURSOS_HUMANOS/#/](https://ecored-sena.github.io/CF03_13410029_ADMON_RECURSOS_HUMANOS/#/)
 
 #
 
