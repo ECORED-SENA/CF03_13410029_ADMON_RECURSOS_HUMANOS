@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Proceso de contratación del talento humano',
+    descripcionCurso:
+      'Este componente formativo tiene como finalidad, definir los procedimientos, orientaciones y actividades contractuales y precontractuales basándose en normas, decretos o leyes que rigen el modelo de contratación del país, debido a que estos procesos son de carácter legal y normativo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,71 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contrato de trabajo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Contenido del contrato',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clases de contratos',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Inducción, capacitación y evaluación del desempeño',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Inducción',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Capacitación',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Adiestramiento',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Evaluación del desempeñ',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Terminación y liquidación del contrato',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Liquidación del contrato de trabajo',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Indemnización',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Programas de revinculación laboral',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +150,69 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Contrato de trabajo ',
+      referencia:
+        'Economía Desde Casa. (2021). <em>Tipos de contrato de trabajo</em> (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=QgyfQ65FD-E',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Contrato de trabajo',
+      referencia:
+        'Actualícese Video. (2020). <em>Contrato de trabajo: ¿cuáles son válidos en Colombia?</em> (video). YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Q1-uBqsqlNo',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Capacitación',
+      significado:
+        'proceso de enseñanza y aprendizaje que busca mejorar las habilidades y conocimientos de los empleados para un mejor desempeño en sus funciones. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Contrato',
+      significado:
+        'acuerdo legal entre dos partes donde una persona se compromete a prestar un servicio personal a otra persona o entidad, bajo la dependencia y subordinación de la segunda, a cambio de una remuneración. ',
+    },
+    {
+      termino: 'Desempeño',
+      significado:
+        'grado de cumplimiento y eficacia con que un empleado realiza sus tareas y responsabilidades asignadas en el trabajo. ',
+    },
+    {
+      termino: 'Evaluación',
+      significado:
+        'proceso de revisión y análisis del desempeño de los empleados con el fin de mejorar su rendimiento, identificar necesidades de capacitación y tomar decisiones sobre ascensos y salarios. ',
+    },
+    {
+      termino: 'Inducción',
+      significado:
+        'proceso de integración de un nuevo empleado a la organización, proporcionando información sobre la empresa y sus políticas para que se desempeñe adecuadamente. ',
+    },
+    {
+      termino: 'Trabajo',
+      significado:
+        'actividad que realiza una persona en favor de otra a cambio de una retribución económica. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Alcaldía de Bogotá. (s.f.). <em>Decreto 2663 de 1950 Nivel Nacional</em>. ',
+      link: 'http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=33104',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (s.f.). <em>Proceso de contratación</em>.',
+      link:
+        'https://www.mintrabajo.gov.co/web/empleosinfronteras/proceso-de-contratacion#:~:text=El%20contrato%20de%20trabajo%20se,ser%C3%A1%20reconocido%20con%20una%20remuneraci%C3%B3n',
+    },
+    {
+      referencia:
+        'Secretaría del Senado. (s.f.). <em>Código Sustantivo del Trabajo</em>.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html ',
     },
   ],
   creditos: [

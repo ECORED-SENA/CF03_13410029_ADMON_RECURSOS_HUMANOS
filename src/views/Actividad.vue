@@ -15,27 +15,39 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Legislación laboral y gestión del talento humano.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Medir la comprensión de los conceptos clave sobre las normativas y prácticas esenciales en los procesos de contratación, inducción, capacitación, evaluación del desempeño y terminación de contratos.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Cuál es el documento que regula la situación laboral del talento humano en Colombia? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Código Civil. ',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Código Sustantivo del Trabajo. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Código Penal. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Código Administrativo. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,77 +55,280 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+            '¿Qué entidad es responsable de la vinculación de los futuros colaboradores en una organización? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Departamento de finanzas. ',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'Área de talento humano. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Gerencia general. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Departamento de ventas. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál de los siguientes NO es un elemento del contrato de trabajo según el CST? ',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Identificación y domicilio de las partes. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Labor o trabajo a ejecutar. ',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+              texto: 'Estado civil del trabajador. ',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Salario.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
+          texto:
+            'Según el CST, ¿qué tipo de contrato debe constar siempre por escrito y su duración no puede ser superior a tres años? ',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Contrato a término indefinido. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Contrato de aprendizaje. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Contrato a término fijo. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Contrato por obra o labor determinada. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué tipo de inducción proporciona información básica sobre la filosofía misional de la organización? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Inducción general. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Inducción específica. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Inducción técnica. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Inducción operativa. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es el objetivo principal de la evaluación del desempeño? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar el salario de los empleados. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Proveer retroalimentación para mejorar los procesos. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Determinar el horario de trabajo. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Planificar actividades recreativas. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 7,
+          texto:
+            "¿Qué significa 'tercerización' en el contexto del documento? ",
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Contratar personal interno. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Delegar funciones a organizaciones o personas externas. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Contratar empleados temporales. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Despedir empleados. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 8,
+          texto: '¿Cuál es una de las ventajas de capacitar a los empleados? ',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reduce el número de horas trabajadas. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumenta el sentido de pertenencia y compromiso. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Disminuye la necesidad de supervisión. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aumenta los costos operativos. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué aspecto NO se menciona como parte del contenido del contrato de trabajo en el CST? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Obligaciones. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Prohibiciones. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Seguro médico. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Período de prueba. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál de las siguientes NO es una causa justa para la terminación del contrato según el artículo 62 del CST? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Robo por parte del trabajador. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Inasistencia injustificada. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Necesidades económicas de la empresa. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Incumplimiento de las cláusulas del contrato. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
       ],
       mensaje_final_aprobado:
