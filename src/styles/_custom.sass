@@ -29,7 +29,7 @@
 .curso-main-container > .container
   overflow: clip !important
 .titulo-segundo:after
-  border-left-color: #3CEAD6 !important
+  border-left-color: #464BC7 !important
 .banner-principal .tarjeta
   background-color: transparent !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
@@ -79,10 +79,98 @@
 
 .slyder-f__btn i
   font-size: 1.2rem
-  background-color: #9028E2
-  color: #fff
+  background-color: #FECE2F
   border-radius: 50px
   padding: .8rem 1rem
   box-shadow: 0px 0px 24px rgba(0, 0, 0, .3)
+
+.acordion .tarjeta
+  background-color: #8746F8
+.acordion .acordion__titulo h3
+  color: #fff
+.acordion .tarjeta.acordion__activo
+  background-color: #D7FAF6
+.acordion .tarjeta.acordion__activo *
+  color: #12263F
+.acordion__accion__btn--b i
+  color: #12263F
+.acordion__accion__btn--a
+  border: 1px solid #FECE2F
+  background-color: #FECE2F
+  color: #12263F !important
+
+/*****Tema 1*****/
+.cont_1_1, .cont_1_1 *
+  position: relative
+.cont_1_1:before
+  content: ''
+  position: absolute
+  width: 70%
+  height: 60%
+  right: 0
+  bottom: 0
+  background-color: #F4EEFE
+
+.cont_1_2, .cont_1_2 *
+  position: relative
+.cont_1_2:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema1/3.png)
+  background-size: 100% 100%
+
+.cont_1_3
+  background-color: #D6C0FD
+  border-radius: 14px
+  border: 4px #fff solid
+  box-shadow: 0px 0px 25px rgba(0,0,0,.2)
+.cont_1_3 img
+  max-width: 100px
+  display: inline
+
+.cont_1_4, .cont_1_4 *
+  position: relative
+.cont_1_4:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: rgb(244,238,254)
+  background: linear-gradient(180deg, rgba(244,238,254,0) 0%, rgba(244,238,254,1) 19%, rgba(244,238,254,1) 81%, rgba(244,238,254,0) 100%)
+
+@media screen and (max-width: 992px)
+  .cont_1_2:before
+    background-size: cover !important
+
+/*****Tema 2*****/
+.cont_2_1, .cont_2_1 *
+  position: relative
+.cont_2_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 80%
+  left: -15%
+  top: 0
+  background: rgb(244,238,254)
+  background: linear-gradient(180deg, rgba(244,238,254,0) 0%, rgba(244,238,254,1) 19%, rgba(244,238,254,1) 81%, rgba(244,238,254,0) 100%)
+
+.cont_2_2, .cont_2_2 *
+  position: relative
+.cont_2_2:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema2/5.png)
+  background-size: 100% 100%
 
 
