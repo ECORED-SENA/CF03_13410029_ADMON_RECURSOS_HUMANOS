@@ -22,7 +22,7 @@
             .mb-2(style="width:100px;height:8px;background-color:#8746F8;")
             p.mb-0 Los objetivos propuestos en la inducción, son dar a conocer a todo el talento humano de la organización, la filosofía, políticas, normas, reglamento interno y seguridad laboral, generalmente es el líder del área quien realiza la inducción al nuevo personal, utilizando los elementos que su experiencia le dicta. 
           p.mt-4 En organizaciones con manejo administrativo y gerencial, se delega a la gestión del talento humano esta responsabilidad, la cual con expertos, diseñan en sus planes de acción, programas o tipos de inducción. Cada organización elige lo que deben conocer los colaboradores en el momento de ingreso a sus puestos de trabajo. Esta información debe ser importante para el correcto desempeño en las funciones que realizará. 
-          p Básicamente existe dos tipos de inducción: 
+          p Básicamente existen dos tipos de inducción: 
         .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema2/1.png")
@@ -77,7 +77,7 @@
 
       .row
         .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-          p Con esta técnica se pretende retroalimentar al talento humano en procura de mejorar los procesos que realiza de manera sistemática. Incluye la revisión del comportamiento laboral para reconocer sus méritos y corregir sus debilidades, y lo que se pretende cuando se realiza, es tomar decisiones de selección, ascensos y salarios. Permite llevar un registro histórico de clima laboral y generalmente se realiza cada año o cuando se concluye el contrato.
+          p Con esta técnica se pretende retroalimentar al talento humano en procura de mejorar los procesos que realiza de manera sistemática. Incluye la revisión del comportamiento laboral para reconocer sus méritos y corregir sus debilidades, y lo que se pretende cuando se realiza, es tomar decisiones de selección, ascensos y salarios. Permite llevar un registro histórico del clima laboral y generalmente se realiza cada año o cuando se concluye el contrato.
           p Dentro de las ventajas de la evaluación del talento humano están:
         .col-lg-5(data-aos="fade-left")
           figure.m-auto.col-9.col-md-7.col-lg-12

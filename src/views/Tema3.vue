@@ -22,7 +22,7 @@
       .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Justa causa")
-            p En el Código Sustantivo del Trabajo, artículo 62, se detallan todas las causales por las cuales se pueden dar por terminado el contrato de trabajo, las cuales se aconseja revisar. El mismo artículo hace referencia, para que tanto el patrón como el trabajador, dispongan o si es el caso, invoquen la(s) cláusulas que den por terminado en la vía jurídica el contrato por las partes intervinientes, Estos mismos literales del artículo deben ser plasmados en las cláusulas del contrato que se acuerde por las partes que le dan vida jurídica a ese documento.
+            p En el Código Sustantivo del Trabajo, Artículo 62, se detallan todas las causales por las cuales se puede dar por terminado el contrato de trabajo, las cuales se aconseja revisar. El mismo artículo hace referencia, para que tanto el patrón como el trabajador, dispongan o si es el caso, invoquen la(s) cláusulas que den por terminado en la vía jurídica el contrato por las partes intervinientes, Estos mismos literales del artículo deben ser plasmados en las cláusulas del contrato que se acuerde por las partes que le dan vida jurídica a ese documento.
           .row.col-xl-11.m-auto(titulo="Sin justa causa")
             p “El que se haya pactado una labor, oficio, mediante un documento (Contrato de trabajo) y en el mismo se hayan establecido las cláusulas correspondientes (deberes, derechos, prohibiciones), es el que permite el término de estricto cumplimiento entre las partes, suele pasar que alguna de esas partes NO cumple lo que se conoce como terminación de manera UNILATERAL, para esta situación, cuando el patrono da por terminado el contrato laboral, debe cumplir con lo estipulado en la legislación laboral, reconociendo una indemnización y liquidación”. (Código Sustantivo del Trabajo)
     
@@ -45,7 +45,7 @@
     
     .row
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        p El artículo 64 del Código Sustantivo del Trabajo, como referente de la legislación laboral en Colombia, ha establecido los parámetros o las condiciones con las cuales procede a reconocerse o repararse el daño al terminar unilateralmente lo pactado, cuando se rompe el vínculo contractual, debiendo pagar el equivalente a 30 días por año o fracción.
+        p El Artículo 64 del Código Sustantivo del Trabajo, como referente de la legislación laboral en Colombia, ha establecido los parámetros o las condiciones con las cuales procede a reconocerse o repararse el daño al terminar unilateralmente lo pactado, cuando se rompe el vínculo contractual, debiendo pagar el equivalente a 30 días por año o fracción.
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-9.col-md-7.col-lg-12
           img(src="@/assets/curso/tema3/4.png")

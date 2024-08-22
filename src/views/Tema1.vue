@@ -113,15 +113,15 @@
             p Definidos en el Capítulo IV del C.S.T. Modalidades del contrato (forma, contenido, duración, revisión, suspensión y prueba del contrato) Art. 37: “El contrato de trabajo puede ser verbal o escrito; para su validez no requiere forma especial alguna, salvo disposición expresa en contrario”. 
           .row.col-xl-11.m-auto(titulo="Por la duración del contrato")
             p.fw-bold Duración indefinida
-            p Art. 47 C.S.T. Es importante estar revisando la normativa que trata estos temas, porque constantemente es modificada por parte de la Rama Legislativa. Actualmente, la ley hace referencia sobre este tipo de contrato, señalando que tendrá vigencia mientras subsistan las causas que le dieron origen y la materia del trabajo (num. 2. C.S.T.). 
+            p Art. 47 C.S.T. Es importante estar revisando la normativa que trata estos temas, porque constantemente es modificada por parte de la rama legislativa. Actualmente, la ley hace referencia sobre este tipo de contrato, señalando que tendrá vigencia mientras subsistan las causas que le dieron origen y la materia del trabajo (num. 2. C.S.T.). 
             p.fw-bold.mt-4 Contrato término fijo
-            p Artículo subrogado por el artículo 3o. de la Ley 50 de 1990. El nuevo texto es el siguiente: el contrato de trabajo a término fijo debe constar siempre por escrito y su duración no puede ser superior a tres años, pero es renovable indefinidamente.
+            p Artículo subrogado por el Artículo 3o. de la Ley 50 de 1990. El nuevo texto es el siguiente: el contrato de trabajo a término fijo debe constar siempre por escrito y su duración no puede ser superior a tres años, pero es renovable indefinidamente.
     
     .row.mt-4
       .col-lg-9(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Contrato duración de la obra o labor determinada")
-            p Art. 45 C.S.T: “en este tipo de contratos, muy utilizados en actividades o el ramo de la construcción, al tratarse de vigencias muy concretas se pacta una obra con plazos de entrega, últimamente se utilizan para transferencia de conocimiento se vincula profesionales o expertos en áreas concretas para que desarrollen investigaciones”.
+            p Art. 45 C.S.T: “en este tipo de contratos, muy utilizados en actividades o el ramo de la construcción, al tratarse de vigencias muy concretas se pacta una obra con plazos de entrega, últimamente se utilizan para transferencia de conocimiento se vincula a profesionales o expertos en áreas concretas para que desarrollen investigaciones”.
           .row.col-xl-11.m-auto(titulo="Contrato de aprendizaje")
             p Art. 30 Ley 789 de 2002. Se suele utilizar este tipo de contrato en aprendices SENA (formaciones para el desarrollo humano), con la promesa de que al terminar su etapa de formación ingrese a la empresa a desarrollar su práctica laboral. La ley ha establecido el proceso de contratación, teniendo en cuenta el tamaño de las organizaciones, así mismo, será el número de aprendices a contratar. 
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")

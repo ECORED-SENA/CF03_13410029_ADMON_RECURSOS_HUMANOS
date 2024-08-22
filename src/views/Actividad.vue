@@ -302,7 +302,7 @@ export default {
         {
           id: 10,
           texto:
-            '¿Cuál de las siguientes NO es una causa justa para la terminación del contrato según el artículo 62 del CST? ',
+            '¿Cuál de las siguientes NO es una causa justa para la terminación del contrato según el Artículo 62 del CST? ',
           imagen: require('@/assets/actividad/pregunta_2.png'),
           barajarRespuestas: false,
           opciones: [
