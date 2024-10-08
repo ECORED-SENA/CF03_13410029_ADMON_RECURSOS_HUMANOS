@@ -101,7 +101,7 @@
       h2#t_1_2 1.2 Clases de contratos
     
     p(data-aos="fade-right") Los contratos de trabajo consagrados en la legislación laboral de Colombia y que se suscriben entre las partes (patrón, empleado), para todo tipo de empresas sean nacionales o extranjeras con domicilio en el país, públicas o privadas, se rigen por las diferentes condiciones.
-    p(data-aos="fade-left") Los elementos que contiene el contrato de trabajo son: 
+    p(data-aos="fade-left") Las clases de contrato son: 
 
     .row.mt-4
       .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
